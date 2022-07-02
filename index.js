@@ -1,6 +1,6 @@
 var musica = prompt('Cole a letra da musica aqui', '‎');
 var verso = musica.split("\n");
-var counter = parseInt(frases.length);
+var counter = parseInt(verso.length);
 window.InputEvent = window.Event || window.InputEvent;
 var event = new InputEvent('input', { bubbles: true });
 var textbox = document.getElementsByClassName(
